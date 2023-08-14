@@ -1,4 +1,3 @@
-
     console.log("Creating popup element");
     var popup = document.createElement('div');
     popup.id = 'popup';
@@ -7,8 +6,7 @@
     console.log("Popup element created:", popup);
     
     document.body.appendChild(popup);
-    
-    
+        
     function showAndHidePopup() {
       popup.style.display = 'block';
     
